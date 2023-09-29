@@ -47,5 +47,11 @@ const main = () => {
     <span>${link.emoji}</span>
     </div>`;
   }).join('');
+
+  let newItem = document.createElement("section");
+  newItem.innerHTML = links;
+  $links.appendChild(newItem)
+  $name.appendChild(name)
 };
   
+main();
