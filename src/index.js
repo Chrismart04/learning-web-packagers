@@ -46,5 +46,6 @@ const main = () => {
     </a>
     <span>${link.emoji}</span>
     </div>`;
-  });
+  }).join('');
 };
+  
